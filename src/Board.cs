@@ -24,5 +24,11 @@ namespace SudokuSolver
             _board = board;
         }
 
+        public IEnumerable<int> GetRow(int index)
+        {
+            var row = index / 9;
+            var startIndex = row * 9;
+            return _board.Skip(startIndex).Take(9);
+        }
     }
 }
