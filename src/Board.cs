@@ -30,5 +30,11 @@ namespace SudokuSolver
             var startIndex = row * 9;
             return _board.Skip(startIndex).Take(9);
         }
+
+        public IEnumerable<int> GetColumn(int index)
+        {
+            var column = index % 9;
+            return _board.Where(x => x % 9 == column);
+        }
     }
 }
