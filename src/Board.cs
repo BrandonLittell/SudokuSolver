@@ -34,7 +34,8 @@ namespace SudokuSolver
         public IEnumerable<int> GetColumn(int index)
         {
             var column = index % 9;
-            return _board.Where(x => x % 9 == column);
+            return _board.Where((n, i) => i % 9 == column);
+        }
         }
     }
 }
