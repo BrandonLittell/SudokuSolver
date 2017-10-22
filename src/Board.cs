@@ -17,6 +17,7 @@ namespace SudokuSolver
             63, 64, 65, 66, 67, 68, 69, 70, 71,
             72, 73, 74, 75, 76, 77, 78, 79, 80
         };
+
         private int[] _board;
 
         public Board(int[] board)
@@ -36,6 +37,14 @@ namespace SudokuSolver
             var column = index % 9;
             return _board.Where((n, i) => i % 9 == column);
         }
+
+        public IEnumerable<int> GetSquare(int index)
+        {
+            var square = SquareId(index);
+            return _board.Where((n, i) => SquareId(i) == square);
+
+            int SquareId(int i)
+                => (i / 9 / 3 * 3) + (i % 9 / 3);
         }
     }
 }
