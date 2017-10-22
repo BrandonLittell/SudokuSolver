@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SudokuSolver
 {
@@ -6,7 +7,9 @@ namespace SudokuSolver
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var board = new Board(Boards.EasyBoard);
+            var solve = board.Solve();
+            Console.WriteLine(board);
         }
     }
 }
