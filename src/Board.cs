@@ -7,6 +7,7 @@ namespace SudokuSolver
     public class Board
     {
         private int[] _board;
+        public int[] Value => _board;
 
         public Board(int[] board)
         {
@@ -59,6 +60,21 @@ namespace SudokuSolver
             while(!_board.SequenceEqual(prevBoard));
 
             return _board;
+        }
+
+        public override string ToString()
+        {
+            var returnString = "";
+
+            for(var i = 0; i < _board.Length; i++)
+            {
+                var itemString = _board[i] + " ";
+                if (i != 0 && i % 9 == 0)
+                    itemString = "\n" + itemString;
+                returnString += itemString;
+            }
+
+            return returnString;
         }
     }
 }
