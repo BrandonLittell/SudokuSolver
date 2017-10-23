@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceRoot}/src/bin/Debug/netcoreapp2.0/SudokuSolver.dll",
+            "program": "${workspaceRoot}/src/SudokuSolver.Cmd/bin/Debug/netcoreapp2.0/SudokuSolver.Cmd.dll",
             "args": [],
-            "cwd": "${workspaceRoot}/src",
+            "cwd": "${workspaceRoot}/src/SudokuSolver.Cmd",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
             "console": "internalConsole",
             "stopAtEntry": false,

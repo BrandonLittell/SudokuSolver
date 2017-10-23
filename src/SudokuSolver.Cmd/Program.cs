@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using SudokuSolver;
 
-namespace SudokuSolver
+namespace SudokuSolver.Cmd
 {
     class Program
     {

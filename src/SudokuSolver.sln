@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuSolver.Tests", "SudokuSolver.Tests\SudokuSolver.Tests.csproj", "{030D7353-45C5-4DD2-B590-EE3962108916}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuSolver", "SudokuSolver\SudokuSolver.csproj", "{30870FB9-8442-458C-9623-021F6CF5836E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuSolver.Tests", "SudokuSolver.Tests\SudokuSolver.Tests.csproj", "{0985E645-D51D-429B-AAA4-4F5981745BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuSolver.Cmd", "SudokuSolver.Cmd\SudokuSolver.Cmd.csproj", "{35E02D98-3C0E-4181-8BD5-EC9A239D550A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,18 +22,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{030D7353-45C5-4DD2-B590-EE3962108916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{030D7353-45C5-4DD2-B590-EE3962108916}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{030D7353-45C5-4DD2-B590-EE3962108916}.Debug|x64.ActiveCfg = Debug|x64
-		{030D7353-45C5-4DD2-B590-EE3962108916}.Debug|x64.Build.0 = Debug|x64
-		{030D7353-45C5-4DD2-B590-EE3962108916}.Debug|x86.ActiveCfg = Debug|x86
-		{030D7353-45C5-4DD2-B590-EE3962108916}.Debug|x86.Build.0 = Debug|x86
-		{030D7353-45C5-4DD2-B590-EE3962108916}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{030D7353-45C5-4DD2-B590-EE3962108916}.Release|Any CPU.Build.0 = Release|Any CPU
-		{030D7353-45C5-4DD2-B590-EE3962108916}.Release|x64.ActiveCfg = Release|x64
-		{030D7353-45C5-4DD2-B590-EE3962108916}.Release|x64.Build.0 = Release|x64
-		{030D7353-45C5-4DD2-B590-EE3962108916}.Release|x86.ActiveCfg = Release|x86
-		{030D7353-45C5-4DD2-B590-EE3962108916}.Release|x86.Build.0 = Release|x86
 		{30870FB9-8442-458C-9623-021F6CF5836E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{30870FB9-8442-458C-9623-021F6CF5836E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30870FB9-8442-458C-9623-021F6CF5836E}.Debug|x64.ActiveCfg = Debug|x64
@@ -44,5 +34,29 @@ Global
 		{30870FB9-8442-458C-9623-021F6CF5836E}.Release|x64.Build.0 = Release|x64
 		{30870FB9-8442-458C-9623-021F6CF5836E}.Release|x86.ActiveCfg = Release|x86
 		{30870FB9-8442-458C-9623-021F6CF5836E}.Release|x86.Build.0 = Release|x86
+		{0985E645-D51D-429B-AAA4-4F5981745BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0985E645-D51D-429B-AAA4-4F5981745BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0985E645-D51D-429B-AAA4-4F5981745BBF}.Debug|x64.ActiveCfg = Debug|x64
+		{0985E645-D51D-429B-AAA4-4F5981745BBF}.Debug|x64.Build.0 = Debug|x64
+		{0985E645-D51D-429B-AAA4-4F5981745BBF}.Debug|x86.ActiveCfg = Debug|x86
+		{0985E645-D51D-429B-AAA4-4F5981745BBF}.Debug|x86.Build.0 = Debug|x86
+		{0985E645-D51D-429B-AAA4-4F5981745BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0985E645-D51D-429B-AAA4-4F5981745BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0985E645-D51D-429B-AAA4-4F5981745BBF}.Release|x64.ActiveCfg = Release|x64
+		{0985E645-D51D-429B-AAA4-4F5981745BBF}.Release|x64.Build.0 = Release|x64
+		{0985E645-D51D-429B-AAA4-4F5981745BBF}.Release|x86.ActiveCfg = Release|x86
+		{0985E645-D51D-429B-AAA4-4F5981745BBF}.Release|x86.Build.0 = Release|x86
+		{35E02D98-3C0E-4181-8BD5-EC9A239D550A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E02D98-3C0E-4181-8BD5-EC9A239D550A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E02D98-3C0E-4181-8BD5-EC9A239D550A}.Debug|x64.ActiveCfg = Debug|x64
+		{35E02D98-3C0E-4181-8BD5-EC9A239D550A}.Debug|x64.Build.0 = Debug|x64
+		{35E02D98-3C0E-4181-8BD5-EC9A239D550A}.Debug|x86.ActiveCfg = Debug|x86
+		{35E02D98-3C0E-4181-8BD5-EC9A239D550A}.Debug|x86.Build.0 = Debug|x86
+		{35E02D98-3C0E-4181-8BD5-EC9A239D550A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E02D98-3C0E-4181-8BD5-EC9A239D550A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E02D98-3C0E-4181-8BD5-EC9A239D550A}.Release|x64.ActiveCfg = Release|x64
+		{35E02D98-3C0E-4181-8BD5-EC9A239D550A}.Release|x64.Build.0 = Release|x64
+		{35E02D98-3C0E-4181-8BD5-EC9A239D550A}.Release|x86.ActiveCfg = Release|x86
+		{35E02D98-3C0E-4181-8BD5-EC9A239D550A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
